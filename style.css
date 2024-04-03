@@ -1,0 +1,67 @@
+.gradient-background {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(44, 44, 44) 0%, rgb(219, 218, 218) 34%, rgb(141, 141, 141) 100%);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+#profile-photo{
+    border-radius: 50%;
+}
+
+#hero {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ .nav-link{
+    color: black;
+    font-weight: 600;
+    font-size: 1.5rem;
+ }
+ .nav-link:hover{
+    color: white;
+    background-color: black;
+ }
+
+ #pictureEu{
+    border-radius: 49px 111px 49px 137px;
+    -moz-border-radius: 49px 111px 49px 137px;
+    -webkit-border-radius: 49px 111px 49px 137px;
+    border: 0px solid #000000;
+    height: 500px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+ }
+ #skills{
+    border:3px solid rgb(124, 121, 121);
+    border-radius: 30px;
+ }
+ .container-contact{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 10px;
+ }
+ .mail{
+    >p{
+        display: inline-block;
+    }
+ }
+ .linkedin>a{
+    color: #000000;
+ }
